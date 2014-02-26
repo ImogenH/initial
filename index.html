@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css rel="stylesheet">
+	<style>
+		header {
+			text-align: center;
+			background: url('http://25.media.tumblr.com/c3658d18480fa0acdf9810844aab31d7/tumblr_mtqjlnm29a1rc5v2so1_500.jpg');
+			background-size: cover;
+			color: pink;
+		}
+		a 	{
+			color: white;
+		}
+		h1	{
+			font-size: 80px;
+		}
+		img	{
+			margin: 40px 0px 70px 0px;
+			border: 6px solid white;
+			border-radius: 8px;
+		}
+		ul 	{
+			padding: 10px;
+			background: rgba(50,0,90,0.5);
+		}
+		li 	{
+			display: inline;
+			padding: 0px 40px 0px 10px;
+		}
+		article	{
+			max-width: 500px;
+			padding: 20px;
+			margin: 10px;
+		
+		}
+		@media (max-width: 500px) {
+			h1 {
+				font-size: 36px;
+				padding: 5px;
+			}
+		}
+	</style
+</head>
+<body>
+	<header>
+		<img src="http://25.media.tumblr.com/d70fb46f255a8f400e22956ced632a5d/tumblr_mp9goxX4vH1qbp83eo1_1280.jpg">
+		<h1>Design Blog</h1>
+		<ul>
+			<li><a href="#">Design Ideas</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">About Us</a></li>
+		</ul>
+	</header>
+	<article>
+		<h2>Get inspiration</h2>
+		<p>easdfkjashgkjashgaklwehgkljsfnaklsdjgllaeksfhlksdjngflasm,dfnfnghaklsjfhskjlgaslgjnalskdjghalwekjfhkldsjngvldkjsfghalseughfkjsdnfgs,dgnalskjdfhl</p>
+		<button>Like</button>
+	</article>
+	<script>
+	$("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
